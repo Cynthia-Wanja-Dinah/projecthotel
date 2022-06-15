@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>this is my first website</title>
+	<link rel="stylesheet" type="text/css" href="hotel ww.css">
+</head>
+<body>
+	<div class="bag">
+	<div class="navbar">
+		<div class="logo">
+			<img src="images/logo.jpg.jpg" height="50px" width="50px">
+		</div>
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="service.html">Service</a>
+			<a href="about.html">Aboutus</a>
+			<a href="contact.html">Contact</a>
+			<a href="gallery.html">Gallery</a>
+		</nav>
+	</div>
+	<div class="login">
+		<form action="/action_page.php" onsubmit="myform()" style="color:indigo;">
+			<label>First name</label>
+			<input type="text" placeholder="name" name=" Firstname " required><br><br><br>
+			<label>Lastname</label>
+			<input type="text" placeholder="name" name=" Lastname"required><br><br><br><br>
+			<label>Email</label>
+			<input type="email"placeholder="email" name="Email"required><br><br><br>
+			<label for="Phone number"> phone number</label>
+			<input type="tel" id="phone" name="phone" pattern="[0-9]{9}" required><br><br><br>
+			<label for="Check-in"> check-in</label>
+			<input type="date" name="date"><br><br><br>	
+			<label for="Check-out">check-out</label>
+		     <input type="date" name="date" placeholder="dd-mm-yy" value="" min="2021-12-01"max="2022-12-01"></td><br><br><br><br>
+		     <button type="submit">submit</button>
+
+		</form>
+		
+	</div>
+</div>
+<div class="shell">
+	<div class="row">
+		<div class="colum"><img src="images/app.jpg.jpg" height="50px" width="50px"><h4 style="text-decoration: underline; text-shadow: 5px 5px indigo;">Cynthia hotel</h4><br>
+	<p style="color:black;">Tazina Hotel is one of the  leading hotel in Uzian City ,with 10hotels in the country ,<br>it is located 5km out of the city and has affordable facilities in the country<br> .with 5 coplited hotel in Mombasa,Kisumu,Nakuru,Embu and Eldoret.<br>it has become one of the fastest growing hotel in East Africa </p>
+	</div>
+	<div class="column">
+	<h2>Useful links</h2>
+	<a href="#">Cynthia hotel one-1 bedroom in Uzina city|price  from 35,000</a><br>
+	<a href="#">Cyntthia hotel two-2,3 bedroom in Uzina city|price  from 59,750</a>
+	</div><br>
+	<div class="column">
+	<h4 style="color: indigo;">Follow Us</h4>
+	<br>
+<img src="images/twiter.jpg.jpg" height="50px" width="50px">	@Cynthiahotelkenya<br>
+<img src="images/facebook.jpg.jpg" height="50px" width="50px">
+@Cynthia.hotel.kenya<br>
+<img src="images/insta.jpg.jpg" height="50px" width="50px">@Cynthiahotel
+</div>
+</div>
+</div>
+<script>
+	function myform(){
+		alert("the form was submitted")
+	}
+
+</script>
+</body>
+</html>
